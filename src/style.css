@@ -5,6 +5,10 @@ body {
     font-family: Poppins;
 }
 
+.gray {
+    color: gray;
+}
+
 .nav-container {
     display: flex;
     padding: 0px 36px;
@@ -44,6 +48,7 @@ body {
     padding: 12px;
     border: 1px solid lightgray;
     border-radius: 5px;
+    position: relative;
 }
 
 .card-img {
@@ -61,6 +66,16 @@ body {
 .card-star {
     height: 10px;
     margin-right: 4px;
+}
+
+.card-status{
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;    
 }
 
 .exp-container{
@@ -106,15 +121,12 @@ body {
     width: 10px;
     height: 10px;
 }
-  
 ::-webkit-scrollbar-track {
     background: #f1f1f1; 
 }
-
 ::-webkit-scrollbar-thumb {
     background: #FF7372; 
 }
-
 ::-webkit-scrollbar-thumb:hover {
     background: #924545; 
 }
