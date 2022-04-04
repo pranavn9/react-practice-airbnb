@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
+
+body {
+    margin: 0;
+    font-family: Poppins;
+}
+
+.nav-container {
+    display: flex;
+    padding: 0px 36px;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.1);
+}
+
+.header-text {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+    padding-top: 16px;
+    padding-left: 36px;
+}
+
+.body-text {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    padding-left: 36px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.hero-img {
+    max-width: 600px;
+    align-self: center;
+}
+
+
+.card {
+    width: 175px;
+    font-size: 12px;
+    padding: 12px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.card-img {
+    width: 175px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card-stats {
+    display: flex;
+    align-items: center;
+}
+
+.card-star {
+    height: 10px;
+    margin-right: 4px;
+}
+
+.exp-container{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    gap: 20px;
+    overflow-x: auto;
+    margin: 0 36px 24px 36px;
+    padding-bottom: 8px;    
+}
+
+.travel-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.travel-img {
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.travel-items {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    align-self: center;
+    padding: 12px;
+    border: 1px solid #FF7372;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+.pin {
+    width: 8px;
+    object-fit: fill;
+    height: 12px;
+    margin-right: 5px;
+}
+/* Custom Scroll Bar - Start */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF7372; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #924545; 
+}
+/* Custom Scroll Bar - End */
